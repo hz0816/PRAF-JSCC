@@ -22,9 +22,6 @@
   ✅ **End-to-end JSCC framework** for image SR  
   - Outperforms **Deep-JSCC** and traditional separated source-channel coding (SSCC)  
 
-- **Performance:**  
-  PRAF-JSCC achieves **better PSNR/SSIM** and more stable transmission across different SNRs, while maintaining **lower inference time** than existing methods.  
-
 ## 📂 Dataset  
 
 We follow the dataset setting in the paper and use:  
