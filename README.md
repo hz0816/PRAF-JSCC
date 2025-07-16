@@ -1,4 +1,4 @@
-# Progressive_Refinement_Attention_Feature_for_Joint_Source-Channel_Coding_in_Semantic_Image_Super-Resolution
+# A_Progressive_Approach_to_Joint_Source-Channel_Coding_for_Image_Super-Resolution_Task_in_Semantic_Communications
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
