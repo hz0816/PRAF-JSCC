@@ -25,6 +25,18 @@
 - **Performance:**  
   PRAF-JSCC achieves **better PSNR/SSIM** and more stable transmission across different SNRs, while maintaining **lower inference time** than existing methods.  
 
+## 📂 Dataset  
+
+We follow the dataset setting in the paper and use:  
+
+- **Flickr2K** for training  
+  - Contains 2,650 high-quality HR images  
+  - Download: [Flickr2K Dataset](https://cv.snu.ac.kr/research/Flickr2K.zip)  
+
+- **DIV2K (Validation Set: 0801–0900)** for testing  
+  - High-resolution benchmark images for SR evaluation  
+  - Download: [DIV2K Dataset](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
+
 
 ## 📰 Paper  
 
