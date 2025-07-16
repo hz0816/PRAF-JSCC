@@ -1,18 +1,18 @@
-# PRAF-JSCC: Progressive Refinement Attention Feature for Joint Source-Channel Coding in Semantic Image Super-Resolution
+# Progressive_Refinement_Attention_Feature_for_Joint_Source-Channel_Coding_in_Semantic_Image_Super-Resolution
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ---
 ## 📖 Introduction  
 
-**PRAF-JSCC** is a novel **Joint Source-Channel Coding (JSCC)** framework designed for **semantic image super-resolution (SR) tasks** in wireless communication.  
+**PRAF-JSCC** is a novel Joint_Source-Channel_Coding_framework designed for image super-resolution (SR) tasks in semantic communication.  
 
 - **Why semantic SR?**  
   Traditional communication systems focus on bit-level accuracy, but semantic communication transmits *meaning* directly. In SR tasks, this allows the receiver to directly reconstruct high-resolution images without complex post-processing, which is crucial for applications like **telemedicine** and **satellite imaging**.  
 
 - **Key challenges:**  
   1. Efficiently extracting deep semantic information from LR images for HR reconstruction.  
-  2. Ensuring robust transmission under **AWGN** and **Rayleigh fading** channels.  
+  2. Ensuring robust transmission under wireless channels.  
 
 - **Our solution:**  
   ✅ **PRAF (Progressive Refinement Attention Feature)** module  
