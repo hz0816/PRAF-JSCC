@@ -43,6 +43,5 @@ If you use this code, please cite:
   volume={14},
   number={7},
   pages={2099-2103},
-  keywords={Feature extraction;Wireless communication;Semantic communication;Data mining;Image coding;Vectors;Decoding;Attention mechanisms;Transmitters;Transformers;Semantic communications;image super-resolution;joint source-channel coding;deep neural network},
   doi={10.1109/LWC.2025.3563231}
 }
