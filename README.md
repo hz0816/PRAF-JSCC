@@ -2,7 +2,6 @@
 # PRAF-JSCC: Progressive Refinement Attention Feature for Joint Source-Channel Coding in Semantic Image Super-Resolution
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Paper](https://img.shields.io/badge/Paper-IEEE_WCL_2024-orange)](https://doi.org/XXXXXX)  
 
 Official implementation of the paper:  
 > **A Progressive Approach to Joint Source-Channel Coding for Image Super-resolution Task in Semantic Communications**  
@@ -15,10 +14,7 @@ Official implementation of the paper:
 
 This project provides the source code for **PRAF-JSCC**, a novel Joint Source-Channel Coding (JSCC) framework designed for **semantic image super-resolution (SR) tasks**.  
 
-- ✅ **PRAF module** extracts deep semantic information progressively  
-- ✅ **SNR-aware channel attention** dynamically adapts to wireless channel conditions  
-- ✅ Outperforms **DeepJSCC, GenJSCC** and traditional SSCC schemes under **AWGN & Rayleigh fading**  
-- ✅ Application scenarios include **telemedicine, satellite communications, and IoT semantic transmission**
+The image super-resolution (SR) task in semantic communication can directly apply the delivered information to the downstream SR task, eliminating complex processing at the receiver and significantly improving communication efficiency. This approach is vital for applications in areas such as telemedicine and satellite communications. Nevertheless, developing semantic communication systems for image SR tasks confronts challenges in creating high-performance joint source-channel coding (JSCC) schemes and mitigating wireless channel interference. In this paper, a progressive refinement attention feature (PRAF) module is proposed for the image SR task in semantic communication. This module effectively extracts deep semantic information from images via a progressive feature extraction strategy and adjusts the semantic information according to the SNRs using an improved channel attention mechanism. Building on PRAF, we custom-design the JSCC scheme for image SR tasks in semantic communications. Simulation results validate the effectiveness of the proposed PRAF module and confirm its superiority over existing deep neural networks (DNNs) based JSCC schemes and traditional separated source channel coding schemes.
 
 ---
 
