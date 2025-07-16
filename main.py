@@ -15,8 +15,8 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 from pytorch_msssim import ssim
 from util import psnr, crop_size
-from 图像.WCL.model.architecture import PRAF_JSCC
-from 图像.WCL.model.dataset import get_fixed_snr, get_snr_range
+from model.architecture import PRAF_JSCC
+from model.dataset import get_fixed_snr, get_snr_range
 
 
 def train_praf_jscc(args, model, device):
@@ -113,9 +113,9 @@ def evaluate_praf_jscc(args, model, device):
             hr_dir_val=args.val_hr_dir,
             lr_dir_val=args.val_lr_dir,
             snr=snr,
-            patch_size=None
+            patch_size=args.patch_size
         )
-        test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False)
+        test_loader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False)
 
         total_mse, total_ssim = 0.0, 0.0
 
@@ -124,7 +124,6 @@ def evaluate_praf_jscc(args, model, device):
                 lr_img, hr_img, snr_tensor = lr_img.to(device), hr_img.to(device), snr_tensor.to(device)
 
                 recon = model(lr_img, snr_tensor)
-                recon, hr_img = crop_size(recon, hr_img)
                 mse_loss = criterion(recon, hr_img)
                 total_mse += mse_loss.item()
 
